@@ -23,10 +23,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_COPY_FILES += device/lge/d855/fstab.g3:recovery/root/fstab.g3
+PRODUCT_COPY_FILES += device/lge/f400/fstab.g3:recovery/root/fstab.g3
 
-PRODUCT_DEVICE := d855
-PRODUCT_NAME := omni_d855
+PRODUCT_DEVICE := f400
+PRODUCT_NAME := omni_f400
 PRODUCT_BRAND := LG
-PRODUCT_MODEL := LG-D855
+PRODUCT_MODEL := LG-F400
 PRODUCT_MANUFACTURER := LG

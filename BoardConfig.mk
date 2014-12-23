@@ -18,7 +18,7 @@
 -include device/lge/g3-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := d855_defconfig
+TARGET_KERNEL_CONFIG := f400_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
